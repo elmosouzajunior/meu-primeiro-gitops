@@ -10,7 +10,3 @@ spec:
       port: 80        # Porta do serviço
       targetPort: 80  # Porta do container
   type: ClusterIP
-  resources:
-    limits:
-      cpu: "200m"
-      memory: "128Mi"
