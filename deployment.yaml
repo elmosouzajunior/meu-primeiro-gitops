@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
-  replicas: 1   # Quantidade de pods
+  replicas: 3   # Quantidade de pods
   selector:
     matchLabels:
       app: nginx
